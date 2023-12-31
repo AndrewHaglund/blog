@@ -13,7 +13,7 @@ I shifted gears and started working for a health and fitness startup, [Flats or 
 Now I’m back with John&nbsp;Deere as a UX design lead. I get to work on projects relating to autonomous and electric vehicles and lots of fun stuff.
 
 <!-- Button -->
-[Download PDF](resume/resume.pdf)
+[Download PDF](/resume.pdf)
 
   <!-- HTML -->
   <!-- <button name="button" onclick="/resume.pdf">Download PDF</button> -->
