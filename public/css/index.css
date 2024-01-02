@@ -4,8 +4,49 @@
 	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
 }
 
-/* Theme colors */
+/* Light Mode colors */
 :root {
+	--gray100: #fff;
+	--gray300: #d3d3d3;
+	--gray500: #808080;
+	--gray700: #545454;
+	--gray800: #404040;
+	--gray900: #333;
+	--blue: #007AFF; /* iOS Blue = 007AFF - web blue = 0000ff */
+	--blueDark: #00008b;
+	--buttonLabel: #fff;
+
+	/* semantic colors*/
+	--link: #007AFF;
+	--link-active: #00008b;
+	--link-visited: #007AFF; /* purple 17050F */
+}
+
+/* Dark Mode colors */
+@media (prefers-color-scheme: dark) {
+	:root {
+	--gray100: #000;
+	--gray300: #414141;
+	--gray500: #949494;
+	--gray700: #b0b0b0;
+	--gray800: #D9D9D9;
+	--gray900: #fff;
+	--blue: #42A2FF; /*0000ff*/
+	--blueDark: #007AFF; /* previous 0000ff */
+	--buttonLabel: #fff;
+
+	/* semantic colors*/
+	--link: #42A2FF;
+	--link-active: #007AFF;
+	--link-visited: #007AFF; /*purple a6a6f8 */
+	}
+}
+
+
+/* ORIGINAL COLORS */
+
+/* Theme colors */
+/* :root {
 	--color-gray-20: #e0e0e0;
 	--color-gray-50: #C0C0C0;
 	--color-gray-90: #333;
@@ -18,22 +59,22 @@
 	--text-color-link-visited: #17050F;
 
 	--syntax-tab-size: 2;
-}
+} */
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
 	:root {
 		--color-gray-20: #e0e0e0;
 		--color-gray-50: #C0C0C0;
-		--color-gray-90: #dad8d8;
+		--color-gray-90: #dad8d8; */
 
 		/* --text-color is assigned to --color-gray-_ above */
-		--text-color-link: #1493fb;
+		/* --text-color-link: #1493fb;
 		--text-color-link-active: #6969f7;
 		--text-color-link-visited: #a6a6f8;
 
 		--background-color: #15202b;
 	}
-}
+} */
 
 
 /* Global stylesheet */
@@ -46,14 +87,14 @@ body {
 	padding: 0;
 	margin: 0 auto;
 	font-family: var(--font-family);
-	color: var(--text-color);
-	background-color: var(--background-color);
+	color: var(--gray900); /*was --text-color*/
+	background-color: var(--gray100); /*was --background-color*/
 }
 html {
 	overflow-y: scroll;
 }
 body {
-	max-width: 40em;
+	max-width: 42em;
 }
 
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
@@ -71,22 +112,27 @@ p:last-child {
 	margin-bottom: 0;
 }
 p {
-	line-height: 1.5;
+	line-height: 1.4;
+	padding-bottom: 1.5rem;
 }
 
 li {
 	line-height: 1.5;
 }
 
+img {
+	border-radius: 24px;
+}
+
 a[href] {
-	color: var(--text-color-link);
+	color: var(--link); /* TODO fix PREV: text-color-link */ 
 }
 a[href]:visited {
-	color: var(--text-color-link-visited);
+	color: var(--link-visited); /* TODO fix PREV: text-color-link-visited*/
 }
 a[href]:hover,
 a[href]:active {
-	color: var(--text-color-link-active);
+	color: var(--link-active); /* TODO fix PREV --text-color-link-active */
 }
 
 main {
@@ -96,8 +142,13 @@ main :first-child {
 	margin-top: 0;
 }
 
+hr {
+	border: 0.5px solid var(--gray300);
+}
+
 header {
-	border-bottom: 1px dashed var(--color-gray-20);
+	margin-bottom: 2rem;
+	/* border-bottom: 1px solid var(--gray300); */
 }
 header:after {
 	content: "";
@@ -107,7 +158,7 @@ header:after {
 
 .links-nextprev {
 	list-style: none;
-	border-top: 1px dashed var(--color-gray-20);
+	border-top: 1px solid var(--gray300);
 	padding: 1em 0;
 }
 
@@ -144,6 +195,7 @@ code {
 
 /* Header */
 header {
+	filter: saturate(0);
 	display: flex;
 	gap: 1em .5em;
 	flex-wrap: wrap;
@@ -151,6 +203,7 @@ header {
 	padding: 1em;
 }
 .home-link {
+	/* filter: saturate(0); TODO get gray links working idk why */
 	font-size: 1em; /* 16px /16 */
 	font-weight: 700;
 	margin-right: 2em;
@@ -158,6 +211,8 @@ header {
 .home-link:link:not(:hover) {
 	text-decoration: none;
 }
+
+
 
 /* Nav */
 .nav {
@@ -171,6 +226,7 @@ header {
 	margin-right: 1em;
 }
 .nav-item a[href]:not(:hover) {
+	/* color: var(--gray800); */ /* gray links working for these but not */
 	text-decoration: none;
 }
 .nav a[href][aria-current="page"] {
@@ -201,7 +257,8 @@ header {
 .postlist-date,
 .postlist-item:before {
 	font-size: 0.8125em; /* 13px /16 */
-	color: var(--color-gray-90);
+	color: var(--gray900);
+	/* color: var(--color-gray-90); */
 }
 .postlist-date {
 	word-spacing: -0.5px;
@@ -267,4 +324,61 @@ a[href].header-anchor:focus,
 
 h2 + .header-anchor {
 	font-size: 1.5em;
+}
+
+/* brought from other site */
+/* styling for text field input and textarea */
+input, textarea {
+    box-sizing: border-box;
+    resize: none;
+	font-size: 1rem;
+    width: 100%;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background-color: var(--gray100);
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: var(--gray300);
+    border-radius: 0.5rem;
+    color: var(--gray700)
+}
+
+
+button {
+	font-size: 1.1rem;
+	font-weight: bold;
+	color: var(--buttonLabel);
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background-color: var(--blue);
+    border-style: none;
+    border-radius: 0.7rem;
+    transition-duration: 0.2s;
+    cursor: pointer;    
+}
+
+/* styling for button on hover*/
+button:hover {
+  transform: translateY(0.25rem);
+  transform: scale(105%);
+}
+
+button:active {
+  background-color: var(--blueDark);
+  transform: translateY(0.25rem);
+  transform: scale(95%);
+}
+
+/* styling for button when disabled*/
+button:disabled {
+  background-color: var(--gray300);
+}
+
+.footer {
+	padding: 2rem 0rem;
+}  
+.footer p {
+	color: var(--gray500);
 }

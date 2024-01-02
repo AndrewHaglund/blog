@@ -2,7 +2,7 @@
 layout: layouts/base.njk
 eleventyNavigation:
   key: Resume
-  order: 4
+  order: 2
 ---
 # Resume
 
