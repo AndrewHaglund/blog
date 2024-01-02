@@ -3,8 +3,17 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		{# Details live in `_data/metadata.js` #}
 		<title>{{ title or metadata.title }}</title>
 		<meta name="description" content="{{ description or metadata.description }}">
+
+		{# Graphics #}
+		<link rel="icon" type="image/png" href="/favicon.png">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="black">
+
+		{# Mastodon verification #}
+		<link rel="me" href="https://hachyderm.io/@haglund">
 
 		{#- Atom and JSON feeds included by default #}
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
