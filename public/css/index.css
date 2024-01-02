@@ -12,17 +12,18 @@
 	--gray700: #545454;
 	--gray800: #404040;
 	--gray900: #333;
-	--blue: #007AFF; /* iOS Blue = 007AFF - web blue = 0000ff */
+	--blue: #007aff; /* iOS Blue = 007aff - web blue = 0000ff */
 	--blueDark: #00008b;
 	--buttonLabel: #fff;
 
 	/* semantic colors*/
+	--background: #fff;
 	--text: #333;
 	--text-secondary: #666;
 
-	--link: #007AFF;
+	--link: #006ee5;
 	--link-active: #00008b;
-	--link-visited: #5856D6; /* purple 17050F */
+	--link-visited: #5856d6; /* purple 17050F */
 }
 
 /* Dark Mode colors */
@@ -32,19 +33,20 @@
 	--gray300: #414141;
 	--gray500: #949494;
 	--gray700: #b0b0b0;
-	--gray800: #D9D9D9;
+	--gray800: #d9d9d9;
 	--gray900: #fff;
-	--blue: #42A2FF; /*0000ff*/
-	--blueDark: #007AFF; /* previous 0000ff */
+	--blue: #42a2ff; /*0000ff*/
+	--blueDark: #007aff; /* previous 0000ff */
 	--buttonLabel: #fff;
 
 	/* semantic colors*/
+	--background: #000;
 	--text: #d9d9d9;
 	--text-secondary: #949494;
 
-	--link: #42A2FF;
-	--link-active: #007AFF;
-	--link-visited: #5E5CE6; /*purple a6a6f8 */
+	--link: #42a2ff;
+	--link-active: #007aff;
+	--link-visited: #7d7aff; /*purple a6a6f8 … 5e5ce6 … 7d7aff*/ 
 	}
 }
 
@@ -350,7 +352,7 @@ input, textarea {
     margin-top: 0.5rem;
     margin-bottom: 1.5rem;
     padding: 1rem;
-    background-color: var(--gray100);
+    background-color: var(--background);
     border-style: solid;
     border-width: 0.1rem;
     border-color: var(--gray300);
