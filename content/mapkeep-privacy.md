@@ -26,4 +26,4 @@ Although most changes are likely to be minor, MapKeep may change its Privacy Pol
 You hereby indemnify us and undertake to keep us indemnified against any losses, damages, costs, liabilities and expenses (including, without limitation, legal expenses and any amounts paid by us to a third party in settlement of a claim or dispute on the advice of our legal advisers) incurred or suffered by us arising out of use of this app or any breach by you of any provision of these terms of use, or arising out of any claim that you have breached any provision of these terms of use.
 
 
-Last modfied on September 18, 2023 by Andrew Haglund
+Last modified on September 18, 2023 by Andrew Haglund

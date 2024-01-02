@@ -17,6 +17,9 @@
 	--buttonLabel: #fff;
 
 	/* semantic colors*/
+	--text: #333;
+	--text-secondary: #666;
+
 	--link: #007AFF;
 	--link-active: #00008b;
 	--link-visited: #5856D6; /* purple 17050F */
@@ -36,6 +39,9 @@
 	--buttonLabel: #fff;
 
 	/* semantic colors*/
+	--text: #d9d9d9;
+	--text-secondary: #949494;
+
 	--link: #42A2FF;
 	--link-active: #007AFF;
 	--link-visited: #5E5CE6; /*purple a6a6f8 */
@@ -87,7 +93,6 @@ body {
 	padding: 0;
 	margin: 0 auto;
 	font-family: var(--font-family);
-	color: var(--gray900); /*was --text-color*/
 	background-color: var(--gray100); /*was --background-color*/
 }
 html {
@@ -95,6 +100,7 @@ html {
 }
 body {
 	max-width: 42em;
+	color: var(--text); /*was --text-color*/
 }
 
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
@@ -237,7 +243,7 @@ header {
 .postlist {
 	list-style: none;
 	padding: 0;
-	padding-left: 1.5rem;
+	/* padding-left: 1.5rem; */     /* used for count on left */
 }
 .postlist-item {
 	display: flex;
@@ -246,32 +252,40 @@ header {
 	counter-increment: start-from -1;
 	margin-bottom: 1em;
 }
-.postlist-item:before {
+/* this is for the count on the left */
+/* .postlist-item:before {
 	display: inline-block;
 	pointer-events: none;
 	content: "" counter(start-from, decimal-leading-zero) ". ";
 	line-height: 100%;
 	text-align: right;
 	margin-left: -1.5rem;
-}
+} */
 .postlist-date,
 .postlist-item:before {
-	font-size: 0.8125em; /* 13px /16 */
-	color: var(--gray900);
+	/* font-size: 0.8125em; */     /* 13px /16 */
+	color: var(--text-secondary);  /* replace with secondary text color */
 	/* color: var(--color-gray-90); */
 }
 .postlist-date {
 	word-spacing: -0.5px;
 }
+
+.postlist a[href]:not(:hover) {
+	color: var(--text);
+	text-decoration: none;
+}
+
 .postlist-link {
 	font-size: 1.1875em; /* 19px /16 */
 	font-weight: 700;
 	flex-basis: calc(100% - 1.5rem);
-	padding-left: .25em;
-	padding-right: .5em;
-	text-underline-position: from-font;
+	/* padding-left: .25em; */    /* used for count on left */
+	/* padding-right: .5em; */    /* used for count on left */
+	/* remove underline */
+	/* text-underline-position: from-font;
 	text-underline-offset: 0;
-	text-decoration-thickness: 1px;
+	text-decoration-thickness: 1px; */
 }
 .postlist-item-active .postlist-link {
 	font-weight: bold;
@@ -388,7 +402,12 @@ button:disabled {
 	/* padding: 2rem 0rem; */
 }  
 .footer p {
-	color: var(--gray500);
+	color: var(--text-secondary);
+}
+
+.footer a {
+	text-decoration: none;
+	color: var(--text-secondary);
 }
 
 
