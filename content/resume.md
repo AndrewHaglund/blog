@@ -1,10 +1,10 @@
 ---
 layout: layouts/base.njk
 eleventyNavigation:
-  key: Resume
+  key: Résumé
   order: 2
 ---
-# Resume
+# Résumé
 
 While studying industrial design at the University of Illinois, I landed a couple UX internships and I loved the mix of design, business, art, technology, and collaborating with engineers. I worked at [John&nbsp;Deere](https://www.deere.com/en/) for a few years before leaving for [Agrible](https://nutrienagsolutions.com/agrible), an ag tech startup. A year later we were acquired by Nutrien and I spent nearly three years integrating our technology into the larger enterprise.
 

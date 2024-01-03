@@ -6,47 +6,63 @@
 
 /* Light Mode colors */
 :root {
+	/*
 	--gray100: #fff;
 	--gray300: #d3d3d3;
 	--gray500: #808080;
 	--gray700: #545454;
 	--gray800: #404040;
 	--gray900: #333;
-	--blue: #007aff; /* iOS Blue = 007aff - web blue = 0000ff */
+	--blue: #007aff;
 	--blueDark: #00008b;
 	--buttonLabel: #fff;
+	*/
 
-	/* semantic colors*/
+	/* semantic colors */
 	--background: #fff;
+	--stroke: #d3d3d3;
 	--text: #333;
 	--text-secondary: #666;
+	--text-inverse: #fff;
 
 	--link: #006ee5;
 	--link-active: #00008b;
 	--link-visited: #5856d6; /* purple 17050F */
+
+	--button: #007aff;
+	--button-active: #00008b;
+	--button-disabled: #d3d3d3;
 }
 
 /* Dark Mode colors */
 @media (prefers-color-scheme: dark) {
 	:root {
+		/*
 	--gray100: #000;
 	--gray300: #414141;
 	--gray500: #949494;
 	--gray700: #b0b0b0;
 	--gray800: #d9d9d9;
 	--gray900: #fff;
-	--blue: #42a2ff; /*0000ff*/
-	--blueDark: #007aff; /* previous 0000ff */
+	--blue: #42a2ff;
+	--blueDark: #007aff;
 	--buttonLabel: #fff;
+	*/
 
-	/* semantic colors*/
+	/* semantic colors */
 	--background: #000;
+	--stroke: #414141;
 	--text: #d9d9d9;
 	--text-secondary: #949494;
+	--text-inverse: #fff;
 
 	--link: #42a2ff;
 	--link-active: #007aff;
 	--link-visited: #7d7aff; /*purple a6a6f8 … 5e5ce6 … 7d7aff*/ 
+
+	--button: #42a2ff;
+	--button-active: #007aff;
+	--button-disabled: #414141;
 	}
 }
 
@@ -95,7 +111,7 @@ body {
 	padding: 0;
 	margin: 0 auto;
 	font-family: var(--font-family);
-	background-color: var(--gray100); /*was --background-color*/
+	background-color: var(--background); /*was --background-color*/
 }
 html {
 	overflow-y: scroll;
@@ -132,14 +148,14 @@ img {
 	border-radius: 24px;
 }
 
-a[href] {
+a { /* a[href] */
 	color: var(--link); /* TODO fix PREV: text-color-link */ 
 }
-a[href]:visited {
+a:visited {
 	color: var(--link-visited); /* TODO fix PREV: text-color-link-visited*/
 }
-a[href]:hover,
-a[href]:active {
+a:hover,
+a:active {
 	color: var(--link-active); /* TODO fix PREV --text-color-link-active */
 }
 
@@ -151,22 +167,12 @@ main :first-child {
 }
 
 hr {
-	border: 0.5px solid var(--gray300);
-}
-
-header {
-	margin-bottom: 2rem;
-	/* border-bottom: 1px solid var(--gray300); */
-}
-header:after {
-	content: "";
-	display: table;
-	clear: both;
+	border: 0.5px solid var(--stroke);
 }
 
 .links-nextprev {
 	list-style: none;
-	border-top: 1px solid var(--gray300);
+	border-top: 1px solid var(--stroke);
 	padding: 1em 0;
 }
 
@@ -201,28 +207,43 @@ code {
 	word-break: break-all;
 }
 
+
+/*        */
 /* Header */
+/*        */
+
 header {
-	filter: saturate(0);
+	margin-bottom: 2rem;
 	display: flex;
 	gap: 1em .5em;
 	flex-wrap: wrap;
 	align-items: center;
 	padding: 1em;
 }
-.home-link {
-	/* filter: saturate(0); TODO get gray links working idk why */
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.go-home a {
+	color: var(--text-secondary);
+	text-decoration: none;
+	margin-right: 2em;
 	font-size: 1em; /* 16px /16 */
 	font-weight: 700;
-	margin-right: 2em;
 }
-.home-link:link:not(:hover) {
-	text-decoration: none;
+.go-home a:hover, a:active {
+	color: var(--link-active);
+	text-decoration: underline;
 }
 
 
 
+/*     */
 /* Nav */
+/*     */
+
 .nav {
 	display: flex;
 	padding: 0;
@@ -234,7 +255,7 @@ header {
 	margin-right: 1em;
 }
 .nav-item a[href]:not(:hover) {
-	/* color: var(--gray800); */ /* gray links working for these but not */
+	color: var(--text-secondary);
 	text-decoration: none;
 }
 .nav a[href][aria-current="page"] {
@@ -315,6 +336,7 @@ header {
 	margin: 0;
 }
 .post-metadata time {
+	color: var(--text-secondary);
 	margin-right: 1em;
 }
 
@@ -342,6 +364,10 @@ h2 + .header-anchor {
 	font-size: 1.5em;
 }
 
+/*        */
+/* Input */
+/*        */
+
 /* brought from other site */
 /* styling for text field input and textarea */
 input, textarea {
@@ -355,25 +381,27 @@ input, textarea {
     background-color: var(--background);
     border-style: solid;
     border-width: 0.1rem;
-    border-color: var(--gray300);
+    border-color: var(--stroke);
     border-radius: 0.5rem;
-    color: var(--gray700)
+    color: var(--text)
 }
 label {
 	font-weight: 500;
 }
 
 
-
+/*        */
+/* Button */
+/*        */
 
 button {
 	font-size: 1.1rem;
 	font-weight: bold;
-	color: var(--buttonLabel);
+	color: var(--text-inverse);
     margin-top: 0.5rem;
     margin-bottom: 1.5rem;
     padding: 1rem;
-    background-color: var(--blue);
+    background-color: var(--button);
     border-style: none;
     border-radius: 0.7rem;
     transition-duration: 0.2s;
@@ -387,17 +415,20 @@ button:hover {
 }
 
 button:active {
-  background-color: var(--blueDark);
+  background-color: var(--button-active);
   transform: translateY(0.25rem);
   transform: scale(95%);
 }
 
-/* styling for button when disabled*/
+/* styling for button when disabled -- is this used? */
 button:disabled {
-  background-color: var(--gray300);
+  background-color: var(--button-disabled);
 }
 
 
+/*        */
+/* Footer */
+/*        */
 
 .footer {
 	padding: 1em;
@@ -410,6 +441,11 @@ button:disabled {
 .footer a {
 	text-decoration: none;
 	color: var(--text-secondary);
+}
+
+.footer a:hover, a:active {
+	text-decoration: underline;
+	color: var(--link-active);
 }
 
 
