@@ -1,7 +1,7 @@
 ---
-title: 2023andMe, a Year in Review
+title: 2023andMe Year in Review
 description: A year in review for 2023 and what I’m looking forward to next year.
-date: 2024-01-03
+date: 2024-01-04
 ---
 
 ## Preamble
@@ -10,13 +10,13 @@ My goal is to collect the stories and art I experienced in 2023 with a sprinkle 
 ## Tech Stories
 There were a lot of disastrous tech stories this year but [23andMe’s data breach](https://www.wired.com/story/23andme-credential-stuffing-data-stolen/) has a special spot in my heart. When I think about the implications for how this data could be misused (off the dome: planting false evidence at a crime scene, the inevitability of nonconsensual cloning), I have a hard time racking my brain for data that’s more sensitive. Stories like this *should* remind us to be more thoughtful of what we put online. Based on what I see on LinkedIn (a “professional” network), society has ways to go.
 
-Other stories that spring to mind are [GM’s bone-headed decision to drop CarPlay](https://arstechnica.com/cars/2023/12/gm-justifies-decision-to-ditch-apple-carplay-due-to-stability-issues/) and the spectacular bungled effort to [fire Sam Altman](https://www.theverge.com/2023/11/29/23981848/sam-altman-back-open-ai-ceo-microsoft-board). The world came *this close* to Microsoft hiring every employee from OpenAI.*
+Other stories that spring to mind are [GM’s bone-headed decision to drop CarPlay](https://arstechnica.com/cars/2023/12/gm-justifies-decision-to-ditch-apple-carplay-due-to-stability-issues/) and the spectacular bungled effort to [fire Sam Altman](https://www.theverge.com/2023/11/29/23981848/sam-altman-back-open-ai-ceo-microsoft-board). The world came *this close* to Microsoft hiring every employee from OpenAI.[^1]
 
 Speaking of close calls: [Adobe almost acquired Figma](https://www.figma.com/blog/figma-adobe-abandon-proposed-merger/). I’m bummed for the Figma employees (who missed out on a big windfall) but this is probably for the best.
 
 We saw the [collapse of Twitter](https://www.axios.com/2023/12/31/elon-musks-x-fidelity-valuation-cut), which was bound to happen, but did anyone think it’d deteriorate this quickly? In its wake we saw the [meteoric launch of Threads](https://www.theverge.com/2023/7/10/23787453/meta-instagram-threads-100-million-users-milestone) and [Mastodon’s](https://joinmastodon.org/) slow-and-steady growth. I hope smaller services like [Micro.blog](https://micro.blog) are getting their day in the sun. In 2024 and beyond I’m ready for a [weirder internet](https://www.rollingstone.com/culture/culture-commentary/internet-future-about-to-get-weird-1234938403/).
 
-It’s for these reasons I’m starting a blog**. After years of posting to [Twitter](https://twitter.com/andrewhaglund) and [Instagram](https://www.instagram.com/andrewhaglund/), it’s time to have a proper home on the web. I’ve settled on:
+It’s for these reasons I’m starting a blog.[^2] After years of posting to [Twitter](https://twitter.com/andrewhaglund) and [Instagram](https://www.instagram.com/andrewhaglund/), it’s time to have a proper home on the web. I’ve settled on:
 - Short, frequent posts on [Mastodon](https://hachyderm.io/@haglund)
 - Long, infrequent posts here ([subscribe via RSS](/feed/feed.xml))
 
@@ -67,7 +67,7 @@ I heard the podcast ad market was tough in 2023. Hosts would mention this occasi
 - *[Roderick on the Line](http://www.merlinmann.com/Roderick/)*: I’ve been listening to the internet’s Merlin Mann and the Long Winters’ John Roderick for a *long time*.
 - *[Upgrade](https://www.relay.fm/upgrade)*: Myke and Jason’s segments on Apple and the entertainment industry keep me coming back week after week.
 
-I loved [Sir McCartney’s show](https://www.pushkin.fm/podcasts/mccartney-a-life-in-lyrics) where he tells the stories behind his killer songs.**
+I loved [Sir McCartney’s show](https://www.pushkin.fm/podcasts/mccartney-a-life-in-lyrics) where he tells the stories behind his killer songs.[^3]
 
 In 2024 I want to reduce my podcast intake or introduce more variety. It’s too easy for me to pop-in an AirPod and tune-out the world. I’m not giving myself enough time for silence.
 
@@ -179,10 +179,8 @@ Dates indicate when I finished watching the season or series. Stars indicate fav
 - Jan: The White Lotus
 - Jan: Fleishman Is in Trouble
 
----
+[^1]: As Warner-Discovery’s renowned rerun ad-laden movie channel extravaganza TNT would say, “We Know Drama.”
 
-*As Warner-Discovery’s renowned rerun ad-laden movie channel extravaganza TNT would say, “We Know Drama”.
+[^2]: Obligatory “There are many like it, but this one is mine.”
 
-**Obligatory “There are many like it, but this one is mine”.
-
-***The ads are obnoxious. One ad repeats throughout the series has Malcom Gladwell reading (I kid you not) this banger ad-copy, “Apple Card: a credit card made by Apple.” Good gravy.
+[^3]: The ads are obnoxious. One ad repeats throughout the series has Malcom Gladwell reading (I kid you not) this banger ad-copy, “Apple Card: a credit card made by Apple.” Good gravy.

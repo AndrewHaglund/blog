@@ -162,6 +162,15 @@ a:active {
 	color: var(--link-active); /* TODO fix PREV --text-color-link-active */
 }
 
+/* there's probably a way to make the footnotes not be underlined */
+/* not working though */
+/* .footnote-ref a {
+	text-decoration: none;
+}
+.footnote-backref a {
+	text-decoration: none;
+} */
+
 main {
 	padding: 1rem;
 }
