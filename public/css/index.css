@@ -118,7 +118,7 @@ html {
 }
 body {
 	max-width: 42em;
-	color: var(--text); /*was --text-color*/
+	color: var(--text);
 }
 
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
@@ -137,11 +137,13 @@ p:last-child {
 }
 p {
 	line-height: 1.5;
-	padding-bottom: 1.5rem;
+	padding-bottom: 1rem;
 }
 
 li {
 	line-height: 1.5;
+	margin: 0.05rem 0;
+	padding-bottom: 1rem;
 }
 
 img {
