@@ -142,7 +142,7 @@ p {
 
 li {
 	line-height: 1.5;
-	margin: 0.05rem 0;
+	/* margin: 0rem 0rem; COULD */
 	padding-bottom: 1rem;
 }
 
@@ -262,6 +262,11 @@ header:after {
 }
 .nav a[href][aria-current="page"] {
 	text-decoration: underline;
+}
+
+.nav li {
+	margin: 0rem 0.5rem;
+	padding-bottom: 0rem;
 }
 
 /* Posts list */
