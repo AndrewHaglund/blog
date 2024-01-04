@@ -280,7 +280,7 @@ header:after {
 	flex-wrap: wrap;
 	align-items: baseline;
 	counter-increment: start-from -1;
-	margin-bottom: 1em;
+	margin-bottom: 0.5em;
 }
 /* this is for the count on the left */
 /* .postlist-item:before {

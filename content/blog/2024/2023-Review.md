@@ -1,5 +1,5 @@
 ---
-title: 2023andMe, a Year in Review
+title: 2023andMe Year in Review
 description: A year in review for 2023 and what I’m looking forward to next year.
 date: 2024-01-03
 ---
