@@ -119,6 +119,7 @@ html {
 body {
 	max-width: 42em;
 	color: var(--text);
+	font-size: 1.1rem;
 }
 
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
@@ -265,7 +266,7 @@ header:after {
 }
 
 .nav li {
-	margin: 0rem 0.5rem;
+	/* margin: 0rem 0.5rem;  */
 	padding-bottom: 0rem;
 }
 

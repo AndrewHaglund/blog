@@ -32,7 +32,7 @@ Weebly hosted my personal site for 10 years but I grew tired of its outdated edi
 ## Travel
 I visited Des Moines, IA, for a week every quarter for “in-person week” at work. My brother happened to live there which meant we could get dinner downtown or watch an episode of *The Sopranos* at his apartment. Those days are behind us now that he’s moved to Chicago. It reminds me to always take advantage of opportunities to see family.
 
-I went to Florida to visit sugar can growers in February. The area was recovering from [Hurricane Ian](https://www.cnn.com/2022/09/30/us/hurricane-ian-fort-myers-beach-florida/index.html) and the destruction was awful. Fort Myers Beach was on a boil order. The hotel was underwater days before I checked-in. I spent a few hours walking the beach and marveled at collapsed hotels, restaurants, and homes.
+I went to Florida to visit sugar cane growers in February. The area was recovering from [Hurricane Ian](https://www.cnn.com/2022/09/30/us/hurricane-ian-fort-myers-beach-florida/index.html) and the destruction was awful. Fort Myers Beach was on a boil order. The hotel was underwater days before I checked-in. I spent a few hours walking the beach and marveled at collapsed hotels, restaurants, and homes.
 
 In May we went to Michigan for a high-school friend’s wedding. A week later we went to a cousin’s high school graduation in Denver and we hiked at [Mount Falcon Park](https://www.jeffco.us/1332/Mount-Falcon-Park).
 
@@ -43,7 +43,7 @@ At the end of September a close friend and college roommate got married in the V
 ## Work
 I continue to work for John Deere as a UX Lead and love it. I was recently promoted and my area of responsibly has grown and I now directly manage a few designers. I’m adjusting to the new role and I’ll be reading *[The First 90 Days](https://hbr.org/books/watkins)* ASAP.
 
-I’m fortunate to have a [great mentor and manager](https://inkypixelsdesign.com). This was a tough year for layoffs across a lot of industries and don’t take my position for granted.
+I’m fortunate to have a [great mentor and manager](https://inkypixelsdesign.com). This was a tough year for layoffs across a lot of industries and I don’t take my position for granted.
 
 I try to stay connected with the University of Illinois and in March I gave a talk about the design process at the [Siebel Center of Design](https://designcenter.illinois.edu/).
 
@@ -99,7 +99,7 @@ Live shows:
 One last note: we all heard a new Beatles song this year. Its authenticity is contentious but seeing [people singing *Now and Then* in Central Park](https://www.youtube.com/watch?v=MzzcsKb8iLY&pp=ygUZbm93IGFuZCB0aGVuIGNlbnRyYWwgcGFyaw%3D%3D) is something. It’s hard to imagine this song hasn’t been around for 50 years.
 
 ## Books
-I read [Expecting Better](https://www.penguinrandomhouse.com/books/310896/expecting-better-by-emily-oster/) which is the *Freakonomics* of pregnancy.
+I read *[Expecting Better](https://www.penguinrandomhouse.com/books/310896/expecting-better-by-emily-oster/)* which is the *Freakonomics* of pregnancy.
 
 30 seconds into Apple’s trailer for [*Silo*](https://www.apple.com/tv-pr/news/2023/06/apple-tv-renews-hit-world-building-drama-silo-for-season-two/) and I was hooked. Before the show aired I read the first book, *[Wool](https://hughhowey.com/books/wool/)*. I’m currently reading *[Shift](https://hughhowey.com/books/shift/)*, book 2 of 3. If you’re a fan of the show, read the books.
 
