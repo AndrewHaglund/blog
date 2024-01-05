@@ -155,6 +155,7 @@ Dates indicate when I finished watching the season or series. Stars indicate fav
 - Sep: Physical
 - Sep: Good Omens
 - Aug: Girls (rewatch)
+- Aug: Fisk
 - Jul: The Crowded Room
 - Jul: Love & Death
 - Jul: Platonic
