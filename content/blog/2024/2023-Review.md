@@ -98,7 +98,9 @@ Live shows:
 
 One last note: we all heard a new Beatles song this year. Its authenticity is contentious but seeing [people singing *Now and Then* in Central Park](https://www.youtube.com/watch?v=MzzcsKb8iLY&pp=ygUZbm93IGFuZCB0aGVuIGNlbnRyYWwgcGFyaw%3D%3D) is something. It’s hard to imagine this song hasn’t been around for 50 years.
 
-## Books
+## Reading
+I started supporting [kottke.org](https://kottke.org) by becoming a [member](https://kottke.org/members). His site is an invaluable source of information on the internet across a variety of topics and help satiates my curiosity.
+
 I read *[Expecting Better](https://www.penguinrandomhouse.com/books/310896/expecting-better-by-emily-oster/)* which is the *Freakonomics* of pregnancy.
 
 30 seconds into Apple’s trailer for [*Silo*](https://www.apple.com/tv-pr/news/2023/06/apple-tv-renews-hit-world-building-drama-silo-for-season-two/) and I was hooked. Before the show aired I read the first book, *[Wool](https://hughhowey.com/books/wool/)*. I’m currently reading *[Shift](https://hughhowey.com/books/shift/)*, book 2 of 3. If you’re a fan of the show, read the books.
