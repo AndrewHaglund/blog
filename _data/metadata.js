@@ -5,7 +5,7 @@ module.exports = {
 	description: "Andrew Haglund is a UX designer based in Urbana, IL.",
 	author: {
 		name: "Andrew Haglund",
-		email: "youremailaddress@example.com",
+		// email: "youremailaddress@example.com",
 		url: "https://haglund.app/"
 	}
 }
