@@ -17,7 +17,7 @@ View my [résumé](/resume) for my full work history.
 - [Flats or Spikes](./fos/)
 - Nutrien
 - Agrible
-- John Deere (2014–2017)
+- [John Deere](./jd/) (2014–2017)
 - Neutral Design Studio
 - Cazoodle
 
