@@ -12,6 +12,9 @@ const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 const pluginDrafts = require("./eleventy.config.drafts.js");
 const pluginImages = require("./eleventy.config.images.js");
 
+// for photoFolder shortCode
+const fs = require("fs");
+
 module.exports = function(eleventyConfig) {
 	// Copy the contents of the `public` folder to the output folder
 	// For example, `./public/css/` ends up in `_site/css/`
@@ -38,6 +41,16 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPlugin(pluginNavigation);
 	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 	eleventyConfig.addPlugin(pluginBundle);
+
+	// Shortcodes
+	eleventyConfig.addShortcode("photoFolder", function (photoFolder) {
+		const html = fs.readdirSync(photoFolder)
+		.map((file) => `<img src="${file}" width="100%" />`);
+		// .map((file) => `<img src="${file}" />`);
+		// .map((file) => `<img src="${file}" width="100%"/>  </div>`);
+		// .map((file) => `<div class="grid">  <img src="${file}" width="100%"/>  </div>`);
+		return html.join("\n");
+	});
 
 	// Filters
 	eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {

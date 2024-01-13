@@ -508,7 +508,8 @@ Workaround is to export at same aspect
 
 /* .grid > div > img { */
 .grid > img {
-width: 100%;height: 100%;
+	width: 100%;
+	height: 100%;
 	object-fit: contain;
 	border-radius: 12px;
 }
