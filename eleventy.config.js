@@ -12,6 +12,9 @@ const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 const pluginDrafts = require("./eleventy.config.drafts.js");
 const pluginImages = require("./eleventy.config.images.js");
 
+// for markdown within template files
+const { EleventyRenderPlugin } = require("@11ty/eleventy");
+
 // for photoFolder shortCode
 const fs = require("fs");
 
@@ -41,6 +44,9 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPlugin(pluginNavigation);
 	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 	eleventyConfig.addPlugin(pluginBundle);
+
+	// for markdown within templates
+	eleventyConfig.addPlugin(EleventyRenderPlugin);
 
 	// Shortcodes
 	eleventyConfig.addShortcode("photoFolder", function (photoFolder) {
