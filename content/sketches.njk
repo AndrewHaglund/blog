@@ -8,16 +8,21 @@ layout: layouts/home.njk
 
 {% renderTemplate "md" %}
 
-At the beginning of the pandemic I make sketches with [Linea](https://linea-app.com/) every day and posted to Instagram.
+## Fun
+
+At the beginning of the pandemic I sketched with [Linea](https://linea-app.com/) every day and posted to Instagram.
 
 {% endrenderTemplate %}
-
-
-
-{# <p>
-    At the beginning of the pandemic I would make fun little sketches with <a href="https://linea-app.com/">Linea</a> every day and post to Instagram.
-</p> #}
 
 <div class=grid>
 {% photoFolder "public/sketches" %}
 </div>
+
+<hr>
+
+{% renderTemplate "md" %}
+## Industrial Design
+A handful of sketches during my time at college.
+{% endrenderTemplate %}
+
+{% photoFolder "public/sketches-id" %}
