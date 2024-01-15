@@ -16,7 +16,8 @@ const pluginImages = require("./eleventy.config.images.js");
 const { EleventyRenderPlugin } = require("@11ty/eleventy");
 
 // for photoFolder shortCode
-const fs = require("fs");
+const fs = require("node:fs");
+const path = require("node:path");
 
 module.exports = function(eleventyConfig) {
 	// Copy the contents of the `public` folder to the output folder
@@ -49,12 +50,11 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPlugin(EleventyRenderPlugin);
 
 	// Shortcodes
-	eleventyConfig.addShortcode("photoFolder", function (photoFolder) {
-		const html = fs.readdirSync(photoFolder)
-		.map((file) => `<img src="${file}" width="100%" />`);
-		// .map((file) => `<img src="${file}" />`);
-		// .map((file) => `<img src="${file}" width="100%"/>  </div>`);
-		// .map((file) => `<div class="grid">  <img src="${file}" width="100%"/>  </div>`);
+	// photoFolder
+	eleventyConfig.addShortcode("photoFolder", function (photoFolder, extensions = [".png", ".gif", ".jpg", ".jpeg"]) {
+		const html = fs.readdirSync(photoFolder, {withFileTypes: true})
+			.filter(file => file.isFile() && extensions.includes(path.extname(file.name)))
+			.map((file) => `<img src="${file.name}" width="100%" />`);
 		return html.join("\n");
 	});
 
