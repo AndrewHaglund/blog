@@ -458,7 +458,7 @@ blockquote {
 	border-left: 0.125rem solid var(--stroke); /* border is 0.5px for reference */
 	/* color: var(--text-secondary); */
 	padding-left: 1rem; /* space from stroke to text */
-	padding-top: 1rem; /* compensates for <p> bottom padding */
+	padding-top: 0.8rem; /* slightly smaller than <p> bottom padding to be optically same */
 
 	display: block;
 	margin-block-start: 0rem;
