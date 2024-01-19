@@ -150,7 +150,8 @@ li {
 img {
 	border-radius: 24px;
 	max-width: 100%;
-	filter: opacity(25%);
+	/* todo fade images dark mode only */
+	/* filter: opacity(25%); */
 }
 
 img[width][height] {
