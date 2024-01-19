@@ -19,7 +19,7 @@ View my [résumé](/resume) for my full work history.
 - Agrible
 - [John Deere](./jd/) (2014–2017)
 - Neutral Design Studio
-- Cazoodle
+- [Cazoodle](./cazoodle)
 
 ## Education
 
