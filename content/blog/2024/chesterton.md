@@ -3,7 +3,7 @@ title: Chesterton’s Fence
 description: Today I learned about Chesterton’s fence thanks to Merlin Mann.
 date: 2024-01-18
 ---
-Today I learned about Chesterton’s Fence thanks to [Merlin Mann’s *Wisdom Project*](wisdom.limo):[^1]
+Today I learned about Chesterton’s Fence thanks to [Merlin Mann’s *Wisdom Project*](https://github.com/merlinmann/wisdom/blob/master/wisdom.md):[^1]
 
 > Learn about Chesterton’s Fence. Then, actively resist altering a given situation before you understand the reasons why it’s remained unchanged for so long.
 
@@ -30,7 +30,7 @@ It’s a skill I try to practice when any new project comes my way. Stay open-mi
 
 [^1]: This is a story for another day but I built an app that shows Merlin’s wisdom on my iPhone home screen. I haven’t decided if I’m going to continue the project or publish to the App Store. For now it’s just for me.
 
-[^2]: Technically I didn’t *read* the article. Instead I used the [Listen to Page](https://www.macrumors.com/how-to/get-siri-to-read-web-articles-to-you/) feature in iOS 17, which comes in handy when you could use 5–7 minutes to rest your eyes.
+[^2]: Technically I didn’t *read* the article. Instead I used the [Listen to Page](https://support.apple.com/en-gb/guide/iphone/iph449fc616c/ios) feature in iOS 17, which comes in handy when you could use 5–7 minutes to rest your eyes.
 
 [^3]: Visual design was never Twitter’s issue. It was *everything* else.
 
