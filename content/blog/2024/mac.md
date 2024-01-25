@@ -1,4 +1,4 @@
---—
+---
 title: The Mac Turns 40
 description: Andrew’s thoughts on the Mac’s 40th birthday.
 date: 2024-01-24
