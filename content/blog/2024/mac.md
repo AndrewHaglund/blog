@@ -3,7 +3,7 @@ title: The Mac Turns 40
 description: Andrew’s thoughts on the Mac’s 40th birthday.
 date: 2024-01-24
 ---
-I saw [several](https://www.macsparky.com/blog/2024/01/the-mac-turns-40/) [lovely](https://www.theverge.com/24048479/apple-mac-40-anniversary) posts celebrating the 40th anniversary of the Mac today. The 30th gave us the wonderful (Mac Font)[https://rknightuk.github.io/mac-30-font-svg/] and somehow feels like yesterday. A lot has changed in the world and my life since then, but one thing has been a constant:
+I saw [several](https://www.macsparky.com/blog/2024/01/the-mac-turns-40/) [lovely](https://www.theverge.com/24048479/apple-mac-40-anniversary) posts celebrating the 40th anniversary of the Mac today. The 30th gave us the wonderful [Mac Font](https://rknightuk.github.io/mac-30-font-svg/) and somehow feels like yesterday. A lot has changed in the world and my life since then, but one thing has been a constant:
 
 I’ve always felt at home with the Mac.
 
