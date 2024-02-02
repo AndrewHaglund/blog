@@ -1,5 +1,6 @@
 ---
 title: Download on Apple TV
+description: Feature request for Apple TV after having a poor streaming experience.
 date: 2024-02-01
 --- 
 The other weekend my wife and I watched the excellent *Killers of the Flower Moon* on Apple TV+. We opted to skip the theatrical and digital purchase windows despite loving [the book](https://www.goodreads.com/book/show/193388249-killers-of-the-flower-moon) and Apple’s caginess around when *exactly* the film would debut on the streaming service.
