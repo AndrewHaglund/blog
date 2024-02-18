@@ -8,9 +8,9 @@ I haven’t been able to try Apple Vision Pro yet, but the Mac screen-sharing fe
 
 Like all Apple Design videos, it’s excellent. They talk about the precision locating UI for AirTag and the interactions behind handoff for HomePod mini. Putting your iPhone _near_ your HomePod will move audio from iPhone to HomePod. It’s pretty magical. In both cases they’re talking about how physical — or spatial — actions can convey user intent, something traditionally conveyed with taps or buttons.
 
-This is relevant for Vision Pro’s Mac screen-sharing feature. It’s triggered by looking at your Mac. There are some other clever features like the autocomplete bar that floats above your physical Bluetooth keyboard but this gesture seems under-utilized in visionOS 1.0.
+This is relevant for Vision Pro’s Mac screen-sharing feature. It’s triggered by looking at your Mac. There are some other clever features like the autocomplete bar that floats above your physical Bluetooth keyboard but this *just look at it* gesture seems under-utilized in visionOS 1.0 and could be extended much further.
 
-The gesture of looking at objects could be extended much further. For example: say you’re watching a movie in Vision Pro and your spouse arrives home. What if you could look at your AirPlay-enabled TV and it could start playback on _that_ screen?
+For example: you’re watching a movie in Vision Pro and your spouse arrives home. What if you could look at your AirPlay-enabled TV and it could start playback on _that_ screen, letting you share that experience in reality.
 
 Or similarly, say you’re listening to music on Vision Pro. Look at a HomePod to handoff the audio. (There are _dozens_ of HomePod owners who could benefit from something like this.) Similarly what if the audio seamlessly followed you as you moved from room to room — without blasting on every speaker in the house.
 
