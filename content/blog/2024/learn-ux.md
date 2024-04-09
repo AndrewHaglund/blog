@@ -11,10 +11,10 @@ I’ve let that slide in recent years[^2] but I figured I could share the books,
 ## Podcasts 
 While the majority of these shows are now retired I consider them to be evergreen.
 
-- [Design Matters](https://www.designmattersmedia.com) is about creative people from a wide array of disciplines.
-- [High Resolution](https://www.highresolution.design) was a limited-run show where they interviewed design leaders.
-- [Layout](https://layout.fm) was a good topical show that helped me feel connected to the broader design community.
-- [Presentable](https://www.relay.fm/presentable) is a great set of interviews from design experts.
+- *[Design Matters](https://www.designmattersmedia.com)* by Debbie Millman is about creative people from a wide array of disciplines.
+- *[High Resolution](https://www.highresolution.design)* by Bobby Ghoshal and Jared Erondu was a limited-run show where they interviewed design leaders.
+- *[Layout](https://layout.fm)* by Kevin Clark and Rafael Conde was a good (semi-topical) show that helped me feel connected to the broader design community.
+- *[Presentable](https://www.relay.fm/presentable)* by Jeff Veen is a great set of interviews with design experts.
 
 ## Books
 
