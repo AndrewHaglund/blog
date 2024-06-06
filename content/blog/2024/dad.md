@@ -6,7 +6,7 @@ date: 2024-06-05
 
 A few weeks ago I became a father.
 
-I can’t begin to explain how wonderful it was hearing our baby’s cry for the first time. Compared to the work my wife put in, I was just a lowly bystander but I can confidently say bringing a kid into this world is a stressful proposition — the 9 months pregnancy, the hospital stay, labor, all of it — but it all just _melts away_ when you hear that baby cry and it’s you and your partner and this beautiful tiny thing.
+I can’t begin to explain how wonderful it was hearing our baby’s cry for the first time. Compared to the work my wife put in, I was just a lowly bystander but I can confidently say bringing a kid into this world is a stressful proposition — the 9 months of pregnancy, the hospital stay, labor, all of it — but it all just _melts away_ when you hear that baby cry and it’s you and your partner and this beautiful tiny thing.
 
 In a flash everything changes and you’re filled to the absolute brim with overwhelming joy.
 
