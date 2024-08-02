@@ -1,5 +1,5 @@
 ---
-title: The Difference is Abundantly Obvious: Suing Suno
+title: Suing Suno and The Obvious Difference
 description: Suno’s explanation is indefensible.
 date: 2024-08-02
 --- 
