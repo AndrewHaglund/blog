@@ -60,8 +60,9 @@ module.exports = function(eleventyConfig) {
 
 	// Filters
 	eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
+		// formats date shown on post pages, see `postslist.njk` for formatting list
 		// Formatting tokens for Luxon: https://moment.github.io/luxon/#/formatting?id=table-of-tokens
-		return DateTime.fromJSDate(dateObj, { zone: zone || "utc" }).toFormat(format || "dd LLLL yyyy");
+		return DateTime.fromJSDate(dateObj, { zone: zone || "utc" }).toFormat(format || "LLLL d, yyyy");
 	});
 
 	eleventyConfig.addFilter('htmlDateString', (dateObj) => {
