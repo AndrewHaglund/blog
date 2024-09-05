@@ -58,7 +58,7 @@
 				{%- for entry in collections.all | eleventyNavigation %}
 					<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
 				{%- endfor %}
-					<li class="nav-item"><a href="https://hachyderm.io/@haglund">Social</a></li>
+					
 				</ul>
 			</nav>
 		</header>
@@ -68,7 +68,14 @@
 		</main>
 
 		<div class="footer"> <!-- previous `<footer>` but p style didn't get applied idk-->
-			<p>© 2024 Andrew Haglund  •  <a href="/feed/feed.xml">RSS</a></p>
+			{# <p>© 2024 Andrew Haglund  •  <a href="/feed/feed.xml">RSS</a>  •  <a href="https://hachyderm.io/@haglund">Social</a></p> #}
+
+			<p>© 2024 Andrew Haglund</p>
+			<ul class="nav">
+				{# <li class="nav-item"><p>© 2024 Andrew Haglund</p></li> #}
+				<li class="nav-item"><a href="/feed/feed.xml">RSS</a></li>
+				<li class="nav-item"><a href="https://hachyderm.io/@haglund">Social</a></li>
+			</ul>
 		</div> <!-- previous `</footer>`-->
 
 		<!-- Current page: {{ page.url | htmlBaseUrl }} -->
