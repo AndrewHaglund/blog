@@ -10,7 +10,7 @@ I have an idea for a simple (in theory) app but I’ve been having a hard time d
 
 The upside of starting this new idea? It _could_ have a broader appeal than MapKeep and I think more likely to made some **coin**. (That’s not my main goal but it’s always in the back of my capitalistic mind.)
 
-Big picture is I often wonder how others seem to juggle so many projects and I feel like I can’t measure up to them. Erving Goffman would say something like _don’t compare someone else’s front stage to your backstage_.
+Big picture is I often wonder how others seem to juggle so many projects and I feel like I can’t measure up to them. Erving Goffman would say something like _don’t compare someone else’s frontstage to your backstage_.
 
 
 [^1]: I have a full time job that provides insurance and the money to pay for stuff so I hope I’m not stealing valor from _true_ solo or indie app makers whose sole income and livelihood comes from their apps. I currently make -$100 per year from [MapKeep](/mapkeep) thanks to the annual developer fee from overlord Apple.
