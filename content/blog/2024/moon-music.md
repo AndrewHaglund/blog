@@ -26,7 +26,7 @@ _We Pray_ is a more successful version of _Princess of China_ with Rihanna, or _
 
 _Jupiter_ is an absolute joy that fills your heart with an upbeat message. Ya gotta love the acoustic guitar and cello.
 
-_Good Feelings_ with Arya Starr is a funky good time with a stellar guitar riff halfway in. It sounds like it could have been on Daft Punk’s _Random Access Memories_.
+_Good Feelings_ with Arya Starr is a funky good time with a stellar guitar riff halfway in. It sounds like it could have been on Daft Punk’s _Random Access Memories_ or on a Passion Pit record.
 
 _Rainbow_ is filled with dreamy synths, ripping guitar, a beautiful piano interlude, and a spoken part (which I assume is found-audio?) that reminds me of M83’s _Hurry Up We’re Dreaming_.
 
