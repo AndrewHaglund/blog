@@ -28,7 +28,7 @@ _Jupiter_ is an absolute joy that fills your heart with an upbeat message. Ya go
 
 _Good Feelings_ with Arya Starr is a funky good time with a stellar guitar riff halfway in. It sounds like it could have been on Daft Punk’s _Random Access Memories_ or on a Passion Pit record.
 
-_Rainbow_ is filled with dreamy synths, ripping guitar, a beautiful piano interlude, and a spoken part (which I assume is found-audio?) that reminds me of M83’s _Hurry Up We’re Dreaming_.
+_Rainbow_ is filled with dreamy synths, ripping guitar, a beautiful piano interlude, and spoken audio from Maya Angelou reminds me of M83’s _Hurry Up We’re Dreaming_.
 
 _Iaam_ (“I Am a Mountain”) is like a throwback to _Glass of Water_ from 2009 but without the heart. The mix itself is hollow: tonally, lyrically, and energy. It stays at one level the whole time.
 
