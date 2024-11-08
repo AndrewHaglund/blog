@@ -34,9 +34,9 @@ We met with customers throughout the development process to ensure we were focus
 
 <!-- image --> {% image "./goapp.jpg", "Two screenshots of the same iPhone app, left is before iOS 7 and one is after." %}
 
-I helped take photos, build content, and design the interface of our GoApp series of apps. It was a mobile-friendly, swipeable version of an Operator's Manual (the left UI in the photo) for accomplishing common maintenance tasks with your machine. There were maybe 8 or 10 of these for each product line: GoHaul (articulated dump trucks), GoCotton (cotton pickers), GoHarvest (combine harvesters), MowerPlus (residential lawn mowers), GoBale (balers), GoSpray, etc. I personally took many of the photos — including taking a trip to Germany, France, and the Netherlands to capture region-specific machines.
+I helped take photos, build content, and design the interface of our GoApp series of apps. It was a mobile-friendly, swipeable version of an Operator's Manual (shown left in the photo) for accomplishing common maintenance tasks with your machine. There were maybe 8 or 10 of these for a variety of product lines: GoHaul (articulated dump trucks), GoCotton (cotton pickers), GoHarvest (combine harvesters), MowerPlus (residential lawn mowers), GoBale (balers), GoSpray, etc. I personally took many of the photos — including traveling to Germany, France, and the Netherlands to capture region-specific machines.
 
-Around the release of iOS 7 release we did an update to the UI (shown right) which definitely "modernized" it, but looking back I feel the iOS 7 craze went overboard and removed a lot of the character of the app.
+Around the release of iOS 7 release we did an update to the UI (shown right) which definitely “modernized” it, but looking back I feel the iOS 7 craze went overboard I ended up removing a lot of the character of the app.
 
 ---
 
